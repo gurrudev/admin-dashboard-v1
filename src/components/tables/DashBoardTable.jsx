@@ -49,7 +49,7 @@ const DashBoardTable = ({tableData}) => {
       {tableData.map((data) => (
   <tr className="bg-white dark:bg-gray-800 dark:border-gray-700 hover:bg-lightPrimary dark:hover:bg-gray-600" key={data.productName}>
     <th scope="row" className="flex items-center px-6 py-4 truncate text-gray-900 whitespace-nowrap dark:text-white">
-      <img className="w-50 h-10 rounded-5" src={data.image} alt="Product image" />
+      <img className="w-50 h-10 rounded-5" src={data.image} alt="Productimage" />
       <div className="pl-3 truncate max-w-xl md:max-w-xs sm:max-w-xs">
         <div className="text-base font-semibold">{data.productName}</div>
         <div className="font-normal text-gray-500">{data.desc}</div>
